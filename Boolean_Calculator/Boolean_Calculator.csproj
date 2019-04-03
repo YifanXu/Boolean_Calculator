@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DualOperatorEnum.cs" />
+    <Compile Include="Expressions\DualExpressionNode.cs" />
+    <Compile Include="Expressions\ExpressionNode.cs" />
+    <Compile Include="Expressions\SingleExpressionNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleOperatorEnum.cs" />
+    <Compile Include="TokenTypes\IToken.cs" />
+    <Compile Include="TokenTypes\LeftParanToken.cs" />
+    <Compile Include="TokenTypes\LiteratureToken.cs" />
+    <Compile Include="TokenTypes\RightParanToken.cs" />
+    <Compile Include="TokenTypes\SingleOperatorToken.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
