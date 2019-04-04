@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Boolean_Calculator.TokenTypes
 {
-    public class SingleOperatorToken : IToken
+    public class DualOperatorToken : IToken
     {
-        public readonly SingleOperatorEnum operation;
+        public readonly DualOperatorEnum operation;
 
         public string stringValue { get { return operation.ToString(); } }
 
-        public SingleOperatorToken (SingleOperatorEnum operation)
+        public DualOperatorToken(DualOperatorEnum operation)
         {
             this.operation = operation;
         }

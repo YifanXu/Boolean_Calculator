@@ -11,5 +11,10 @@ namespace Boolean_Calculator.TokenTypes
         public readonly char variable;
 
         public string stringValue { get { return variable.ToString(); } }
+
+        public LiteratureToken(char variable)
+        {
+            this.variable = variable;
+        }
     }
 }
