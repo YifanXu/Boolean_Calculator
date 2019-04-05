@@ -7,7 +7,7 @@ using Boolean_Calculator.TokenTypes;
 
 namespace Boolean_Calculator
 {
-    class Program
+    public class Program
     {
         private static Dictionary<char, DualOperatorToken> dualOperations = new Dictionary<char, DualOperatorToken>()
         {
